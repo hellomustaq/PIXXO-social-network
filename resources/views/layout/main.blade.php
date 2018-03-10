@@ -10,6 +10,7 @@
                     <!-- CSRF Token -->
         <meta content="{{ csrf_token() }}" name="csrf-token">
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        @yield('style')
     </head>
 
 

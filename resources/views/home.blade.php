@@ -1,4 +1,18 @@
 @extends('layout.main')
+@section('style')
+    <style type="text/css">
+        .img-div{
+            /*max-width: 400px;*/
+            margin-bottom: 45px;
+        }
+        .border-red{
+            border-radius: 5px;
+        }
+        .border{
+            border: 5px solid #17A2B8;
+        }
+    </style>
+@endsection
 
 @section('content')
 <div class="container">
@@ -25,7 +39,7 @@
                 
             </div>
             <div class="col-md-6 text-center">
-                <img class="img-circle img-fluid" height="150" width="150" src="/images/pro.png">
+                <img class="img-circle img-fluid " height="150" width="150" src="/images/pro.png">
             </div>
             <div class="col-md-3">
                 
@@ -53,7 +67,31 @@
                 </form>
             </div>
         </div>
-        
     </div>
+    <hr>
+        
+        <div class="row">
+            <div class="col-md-12 ">
+                <div class="img-div col-md-4 text-center pull-left">
+                    <img class="border img-fluid  border-red" height="310" width="290"  src="/images/pro.png">
+                </div>
+                <div class="img-div col-md-4 text-center pull-left">
+                    <img class="border border-red img-fluid" height="310" width="290" src="/images/pro.png">
+                </div>
+                <div class="img-div col-md-4 text-center pull-left ">
+                    <img class="border img-fluid  border-red" height="310" width="290" src="/images/pro.png">
+                </div>
+                <div class="img-div col-md-4 text-center pull-left">
+                    <img class="border img-fluid border-red" height="310" width="290"  src="/images/pro.png">
+                </div>
+                <div class="img-div col-md-4 text-center pull-left">
+                    <img class="border img-fluid border-red" height="310" width="290" src="/images/pro.png">
+                </div>
+                <div class="img-div col-md-4 text-center pull-left">
+                    <img class="border img-fluid border-red" height="310" width="290" src="/images/pro.png">
+                </div>
+            </div>
+        </div>
+        <br>
 </div>
 @endsection
