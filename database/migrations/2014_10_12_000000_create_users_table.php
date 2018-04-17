@@ -21,6 +21,7 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->timestamps();
             //edit 1 field or add
+            //multiple information will be needed to identifi user
         });
     }
 
